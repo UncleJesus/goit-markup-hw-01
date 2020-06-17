@@ -9,3 +9,22 @@
   --secondary-text-color: #757575;
   --title-text-color: #212121;
 }
+
+ul {
+  list-style-type: none;
+}
+
+.link {
+  color: var(--title-text-color);
+}
+
+.link:hover,
+:focus {
+  color: var(--acent-text-color);
+}
+.logo-web {
+  color: var(--acent-text-color);
+}
+.logo-stud {
+  color: var(--title-text-color);
+}
