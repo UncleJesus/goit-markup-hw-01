@@ -14,10 +14,12 @@ ul {
   list-style-type: none;
 }
 
-.link {
+.site-nav .link {
   color: var(--title-text-color);
 }
-
+.site-nav .link.current {
+  color: var(--acent-text-color);
+}
 .link:hover,
 :focus {
   color: var(--acent-text-color);
