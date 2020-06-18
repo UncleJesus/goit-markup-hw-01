@@ -1,6 +1,8 @@
 /* background-color: var(--) ; */
 /* text-decoration: none; */
-
+body {
+  font-family: Roboto;
+}
 :root {
   --primary-text-color: #ffffff;
   --acent-text-color: #2196f3;
@@ -8,7 +10,7 @@
   --title-text-color: #212121;
 }
 header {
-  font-family: Roboto;
+  /* font-family: Roboto; */
 }
 
 ul {
@@ -23,7 +25,7 @@ ul {
   color: var(--acent-text-color);
 }
 .link:hover,
-:focus {
+.link:focus {
   color: var(--acent-text-color);
 }
 .site-nav .logo-web {
@@ -43,4 +45,17 @@ ul {
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
+}
+.site-nav .adress {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+  text-decoration: none;
+}
+.adress:hover,
+.adress:focus {
+  color: var(--acent-text-color);
 }
