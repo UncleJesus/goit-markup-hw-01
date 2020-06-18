@@ -1,0 +1,27 @@
+:root {
+  --primary-text-color: #ffffff;
+  --acent-text-color: #2196f3;
+  --secondary-text-color: #757575;
+  --title-text-color: #212121;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.site-nav .link {
+  color: var(--title-text-color);
+}
+.site-nav .link.current {
+  color: var(--acent-text-color);
+}
+.link:hover,
+:focus {
+  color: var(--acent-text-color);
+}
+.logo-web {
+  color: var(--acent-text-color);
+}
+.logo-stud {
+  color: var(--title-text-color);
+}

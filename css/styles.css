@@ -13,20 +13,3 @@
 ul {
   list-style-type: none;
 }
-
-.site-nav .link {
-  color: var(--title-text-color);
-}
-.site-nav .link.current {
-  color: var(--acent-text-color);
-}
-.link:hover,
-:focus {
-  color: var(--acent-text-color);
-}
-.logo-web {
-  color: var(--acent-text-color);
-}
-.logo-stud {
-  color: var(--title-text-color);
-}
