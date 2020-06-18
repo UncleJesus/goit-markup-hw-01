@@ -1,3 +1,6 @@
+/* background-color: var(--) ; */
+/* text-decoration: none; */
+
 :root {
   --primary-text-color: #ffffff;
   --acent-text-color: #2196f3;
@@ -14,6 +17,7 @@ ul {
 
 .site-nav .link {
   color: var(--title-text-color);
+  text-decoration: none;
 }
 .site-nav .link.current {
   color: var(--acent-text-color);
@@ -22,7 +26,7 @@ ul {
 :focus {
   color: var(--acent-text-color);
 }
-.logo-web {
+.site-nav .logo-web {
   color: var(--acent-text-color);
   font-family: Raleway;
   font-style: normal;
@@ -30,15 +34,13 @@ ul {
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-  
 }
-.logo-stud {
+.site-nav .logo-stud {
   color: var(--title-text-color);
-   font-family: Raleway;
+  font-family: Raleway;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-}
 }
